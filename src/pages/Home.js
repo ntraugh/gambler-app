@@ -17,9 +17,9 @@ const Home = () => {
         grabGames()
     }, [])
   return (
-    <div>
+    
         <BetCards isLoading={loading} games={games}/>
-    </div>
+    
   )
 }
 
