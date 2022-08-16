@@ -1,8 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 
-const Search = () => {
+const Search = ({getQuery}) => {
+  const [search, setSearch] = useState("")
+  const onChange = (search) => {
+    setSearch(search)
+    getQuery(search)
+  }
   return (
-    <div>Search</div>
+    <div className='search'>
+      <form>
+        <input type="text" className='form-control' placeholder='Search for a team' value={search} onChange={(e) => onChange(e.target.value)}>
+
+        
+        </input>
+      </form>
+
+    </div>
   )
 }
 
