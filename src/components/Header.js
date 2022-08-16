@@ -18,9 +18,6 @@ const Header = () => {
                 Upcoming Games
             </h2>
         </div>
-        <div className='d-flex align-items-center justify-content-center'>
-            <Search />
-        </div>
     </>
   )
 }
