@@ -1,0 +1,13 @@
+.bg {
+    background-image: url("https://images.unsplash.com/photo-1651179853369-c20d476891f8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    height: 80vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.text-bg {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 2px 2px ;
+    padding: 1rem;
+}
