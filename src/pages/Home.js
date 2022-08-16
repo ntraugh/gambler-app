@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import axios from "axios";
 import BetCards from '../components/BetCards';
+const api_key = process.env.api_key
+
 
 
 const Home = () => {
@@ -18,7 +20,7 @@ const Home = () => {
     }, [])
   return (
     
-        <BetCards isLoading={loading} games={games}/>
+     <BetCards isLoading={loading} games={games}/>
     
   )
 }
